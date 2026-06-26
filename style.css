@@ -16,7 +16,7 @@ body {
 .site-header {
   background-color: #fff;
   width: 100%;
-  padding: 15px 30px;
+  padding: 15px 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
