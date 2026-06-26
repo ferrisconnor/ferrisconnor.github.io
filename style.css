@@ -12,3 +12,32 @@ body {
   background-color:#f4f4f4;
   color:#333
 }
+
+.site-header {
+  background-color: #fff;
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  algn-items: center;
+}
+
+.logo {
+  max-height: 60px;
+  display: block;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav li {
+  color: #B3DDCB;
+  font-weight: 500;
+}
+
+.main-nav li: hover {
+  color: #8CCCB1;
+}
