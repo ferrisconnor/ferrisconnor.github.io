@@ -10,7 +10,7 @@
 body {
   font-family: Verdana, Geneva, sans-serif;
   background-color:#f4f4f4;
-  color:#333
+  color:#333;
 }
 
 .site-header {
@@ -53,6 +53,34 @@ body {
   color: #8CCCB1;
 }
 
+.hero-banner {
+  background-image: url('images/banner-image.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 1300px;
+  height: 540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: #222;
+  margin-bottom: 15px;
+}
+
+.hero-content .highlight {
+  color: #89CAAE;
+}
+
+.hero-content h4 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+  line-height: 1.6;
+  
 .main-content {
   max-width: 100%
   padding: 40px 20%;
