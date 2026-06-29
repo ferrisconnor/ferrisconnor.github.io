@@ -52,3 +52,8 @@ body {
 .main-nav a: hover {
   color: #8CCCB1;
 }
+
+.main-content {
+  max-width: 100%
+  padding: 40px 20%;
+}
