@@ -57,7 +57,7 @@ body {
   background-image: url('images/banner-image.jpg');
   background-size: cover;
   background-position: center;
-  width:2400px;
+  width: 100%;
   height: 540px;
   margin: 0 auto;
   display: flex;
