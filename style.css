@@ -121,7 +121,36 @@ body {
   }
 
   /* main content */
-.main-content {
-  max-width: 100%;
-  padding: 40px 20%;
+.split-section {
+  background-color: #fff;
+  padding: 60px 5%;
+  width: 100%;
 }
+
+.split-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.split-content {
+  flex: 1;
+}
+
+.split-content h2 {
+  font-size: 32px;
+  color: #449B76;
+  margin-bottom: 20px:
+}
+
+.split-content p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+
