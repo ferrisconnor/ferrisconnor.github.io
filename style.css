@@ -151,6 +151,21 @@ body {
   line-height: 1.6;
 }
 
+.split-image {
+  flex: 1;
+}
 
+.split-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
 
-
+/* Responsiveness for mobile */
+@media (max-width: 768px) {
+  .split-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
