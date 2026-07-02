@@ -154,6 +154,11 @@ body {
   padding-bottom: 20px;
 }
 
+.content-buttons {
+  display: flex;
+  justify-content: left;
+}
+
 .split-image {
   flex: 1;
 }
