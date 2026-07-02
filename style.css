@@ -154,9 +154,35 @@ body {
   padding-bottom: 20px;
 }
 
-.content-buttons {
-  display: flex;
-  justify-content: left;
+/* content button */
+.content-btn {
+  display: inline-block;
+  width: fit-content;
+  padding: 12px 35px;
+  background-color: #C2E4D6;
+  color: #449B76;
+  border: 2px solid #8CCCB1;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.content-btn:hover {
+  background-color: #E4F3EE;
+  border-color: #8CCCB1;
+}
+
+/* mobile adjustments */
+@media (max-width: 768px) {
+  .content-btn {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin: 15px auto;
+    text-align: center;
+  }
 }
 
 .split-image {
