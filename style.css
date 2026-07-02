@@ -154,6 +154,11 @@ body {
   padding-bottom: 20px;
 }
 
+/* divider */
+.divider {
+  padding: 40px;
+}
+
 /* content button */
 .content-btn {
   display: inline-block;
