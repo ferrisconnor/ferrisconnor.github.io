@@ -21,16 +21,8 @@
   </header>
 
   <main>
-    <!--home banner-->
-    <section class="hero-banner">
-      <div class="hero-content">
-        <h1>A simple place to <span class="highlight">stress less</span></h1>
-        <h4>Stress is part of life. This site explains what stress is, why it matters, and practical ways to manage it</h4>
-        <div class="hero-buttons">
-          <a href="https://ferrisconnor.github.io/stress-relief-tips" id="navbutton1" class="btn btn-solid">See relief tips</a>
-          <a href="https://ferrisconnor.github.io/about-stress" id="navbutton2" class="btn btn-outline">Learn about stress</a>
-        </div>
-      </div>
+    <!--stress relief tips banner-->
+    <section class="stress-relief-tips-banner">
     </section>
     
     <!--main content-->
