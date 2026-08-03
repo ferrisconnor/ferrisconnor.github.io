@@ -94,6 +94,24 @@
       
       </div>
   </footer>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const submitBtn = document.getElementById('submitBtn');
+  const originalText = submitBtn.querySelector('.btn-text').textContent;
   
+  // Feedback effect on submit
+  submitBtn.style.backgroundColor = '#449B76';
+  submitBtn.querySelector('.btn-text').textContent = 'Sending...';
+
+  setTimeout(() => {
+    alert('Thank you! Your message has been sent.');
+    this.reset();
+    
+    // Reset button state
+    submitBtn.style.backgroundColor = '#89CAAE';
+    submitBtn.querySelector('.btn-text').textContent = originalText;
+  }, 1000);
+});
 </body>
 </html>
