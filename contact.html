@@ -33,13 +33,38 @@
           <h1>Contact Us</h1>
           <p>Please fill out the form below, and we will get back to you as soon as possible.</p>
          
-          <div class="form-container">
-  <h2>Get in Touch</h2>
- <form action="process-form.php" method="POST">
-  <!-- your inputs here -->
-  <button type="submit">Send</button>
-</form>
-</div>
+         <div class="form-container">
+    <h2>Contact Us</h2>
+    
+    <!-- Placeholder for PHP response messages -->
+    <div id="status-message"></div>
+
+    <form action="process-form.php" method="POST">
+      
+      <div class="input-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required placeholder="John Doe">
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required placeholder="john@example.com">
+      </div>
+
+      <div class="input-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="How can we help?">
+      </div>
+
+      <div class="input-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+      
+    </form>
+  </div>
    
       </div>
     </section>
