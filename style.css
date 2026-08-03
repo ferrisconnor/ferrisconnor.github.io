@@ -189,8 +189,14 @@ body {
   flex: 1;
 }
 
-.split-content h2 {
+.split-content h1 {
   font-size: 32px;
+  color: #B2DDCA;
+  padding-bottom: 30px;
+}
+
+.split-content h2 {
+  font-size: 28px;
   color: #B2DDCA;
   padding-bottom: 30px;
 }
