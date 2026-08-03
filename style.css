@@ -413,10 +413,11 @@ ul.rounded-squares li::before {
   }
 }
 
-/* Container & Layout */
+/* Contact Form Layout */
 .form-container {
+  float: left;
   max-width: 450px;
-  margin: 40px auto;
+  margin: 40px 0;
   padding: 30px;
   background: #ffffff;
   border-radius: 16px;
