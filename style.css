@@ -416,7 +416,7 @@ ul.rounded-squares li::before {
 /* Contact Form Layout */
 .form-container {
   float: left;
-  max-width: 450px;
+  max-width: 650px;
   margin: 40px 0;
   padding: 30px;
   background: #ffffff;
