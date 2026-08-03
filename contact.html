@@ -115,5 +115,18 @@
     alert('Message sent successfully!');
   });
 });
+
+  <!-- JS script to display success/error message after PHP redirect -->
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const status = urlParams.get('status');
+    const statusDiv = document.getElementById('status-message');
+
+    if (status === 'success') {
+      statusDiv.innerHTML = '<p class="status-success">Thank you! Your message has been sent.</p>';
+    } else if (status === 'error') {
+      statusDiv.innerHTML = '<p class="status-error">Oops! Something went wrong. Please try again.</p>';
+    }
+  </script>
 </body>
 </html>
