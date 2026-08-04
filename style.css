@@ -39,7 +39,7 @@ body {
   cursor: pointer;
 }
 
-.main-nav li: hover {
+.main-nav li:hover {
   color: #B7DFCE;
 }
 
@@ -49,7 +49,7 @@ body {
   font-weight: 600;
 }
 
-.main-nav a: hover {
+.main-nav a:hover {
   color: #B7DFCE;
 }
 /* banner content */
