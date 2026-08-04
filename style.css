@@ -413,21 +413,42 @@ ul.rounded-squares li::before {
   }
 }
 
-/* Contact Form Layout */
+/* Contact Form Container */
 .form-container {
   float: left;
   max-width: 650px;
+  width: 100%;
   margin: 40px 0;
   padding: 30px;
   background: #ffffff;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
 .form-container h2 {
   margin-bottom: 25px;
   color: #333;
+  text-align: center;
+}
+
+/* Status Message Styles (PHP Response) */
+.status-success {
+  padding: 12px;
+  background-color: #e6f4ea;
+  color: #137333;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.status-error {
+  padding: 12px;
+  background-color: #fce8e6;
+  color: #c5221f;
+  border-radius: 8px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -447,6 +468,7 @@ ul.rounded-squares li::before {
   font-size: 15px;
   transition: border-color 0.3s ease;
   background: transparent;
+  box-sizing: border-box;
 }
 
 .input-group label {
@@ -466,7 +488,7 @@ ul.rounded-squares li::before {
   border-color: #89CAAE;
 }
 
-/* Label animation on focus or content entry */
+/* Label Animation Trigger */
 .input-group input:focus ~ label,
 .input-group input:not(:placeholder-shown) ~ label,
 .input-group textarea:focus ~ label,
@@ -508,7 +530,6 @@ ul.rounded-squares li::before {
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* Default state: show text, hide rollover text below */
 .btn-text {
   opacity: 1;
 }
@@ -518,7 +539,6 @@ ul.rounded-squares li::before {
   transform: translateY(100%);
 }
 
-/* Rollover hover state: slide up and swap text */
 .rollover-btn:hover .btn-text {
   opacity: 0;
   transform: translateY(-150%);
