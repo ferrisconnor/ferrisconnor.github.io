@@ -90,14 +90,24 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: auto;
-  min-height: 540px;
-  padding: 40px 20px;
+  /* Flexible height */
+  height: clamp(250px, 40vh, 540px);
+  padding: 20px;
   margin: 0 auto;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-sizing: border-box;
+}
+
+/* Adjustments for smaller mobile screens */
+@media (max-width: 768px) {
+  .stress-relief-tips-banner {
+    height: clamp(200px, 30vh, 350px);
+    background-position: center center;
+  }
 }
 
 /* bullet point styles */
