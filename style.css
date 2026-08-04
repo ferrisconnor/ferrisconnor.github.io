@@ -429,8 +429,8 @@ ul.rounded-squares li::before {
 
 .form-container h2 {
   margin-bottom: 25px;
-  color: #333;
-  text-align: center;
+  color: #B2DDCA;
+  text-align: left;
 }
 
 /* Status Message Styles (PHP Response) */
