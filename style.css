@@ -255,7 +255,8 @@ ul.rounded-squares li::before {
 .split-content h2 {
   font-size: 28px;
   color: #B2DDCA;
-  padding-bottom: 30px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .split-content p {
