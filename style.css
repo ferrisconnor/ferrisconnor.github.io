@@ -88,7 +88,7 @@ body {
 
 /* Adjustments for smaller mobile screens */
 @media (max-width: 768px) {
-  .stress-relief-tips-banner {
+  .about-stress-banner {
     height: clamp(200px, 30vh, 350px);
     background-position: center center;
   }
@@ -121,30 +121,6 @@ body {
   }
 }
 
-/* bullet point styles */
-ul.rounded-squares {
-  list-style: none; /* Removes default bullet */
-  padding-left: 0;
-}
-
-ul.rounded-squares li {
-  position: relative;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-/* Creates a custom square using CSS */
-ul.rounded-squares li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 6px;
-  width: 10px;
-  height: 10px;
-  background-color: #89CAAE;
-  border-radius: 2px; /* Softens the square edges */
-}
 
 /* contact page banner content */
 .contact-banner {
@@ -166,7 +142,7 @@ ul.rounded-squares li::before {
 
 /* Adjustments for smaller mobile screens */
 @media (max-width: 768px) {
-  .stress-relief-tips-banner {
+  .contact-banner {
     height: clamp(200px, 30vh, 350px);
     background-position: center center;
   }
@@ -174,7 +150,8 @@ ul.rounded-squares li::before {
 
 
 .hero-content h1 {
-  font-size: #222;
+  color: #222;
+  font-size: 48px;
   margin-bottom: 15px;
 }
 
